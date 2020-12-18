@@ -1,6 +1,6 @@
 # mclovin-app
 McLovin Fastfood Chain App with Speech Recognition 
 
-<img src="mclovin_logo.png" width=50%>
+<img src="mclovin_logo.png" width=75%>
 
-![](mclovin_logo.png)
+[comment]: <> (![]&#40;mclovin_logo.png&#41;)
