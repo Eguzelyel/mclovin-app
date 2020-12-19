@@ -40,5 +40,5 @@ class Person:
         return "{} {} {}".format(self.person_id, self.full_name, )
 
 
-per1 = Person("Person", "One", "personone@gmail.com")
-print(per1)
+# per1 = Person("Person", "One", "personone@gmail.com")
+# print(per1)

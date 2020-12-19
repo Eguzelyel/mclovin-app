@@ -1,4 +1,4 @@
-import Person as Person
+from Person import Person
 
 
 class Employee(Person):
@@ -21,3 +21,7 @@ class Employee(Person):
         # Create an employee from a text "First, Last, email, salary"
         first, last, email, salary = text.split(", ")
         return cls(first, last, email, salary)
+
+    @staticmethod
+    def mark_ready(order):
+        order.mark_ready()

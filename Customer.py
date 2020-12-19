@@ -8,7 +8,7 @@ class Customer(Person):
         self.credit_card = credit_card
 
     def display_info(self):
-        print("Name: {}\nEmail: {}\nCard: {}", self.full_name, self.email, self.credit_card)
+        print("Name: {}\nEmail: {}\nCard: {}".format(self.full_name, self.email, self.credit_card))
 
     def add_credit_card(self, credit_card):
         # Takes card number as String. Only 1 card at a time.
@@ -25,5 +25,5 @@ class Customer(Person):
         return cls(first, last, email, credit_card)
 
 
-cst1 = Customer("Mc", "Lovin", "mclovin@gmail.com", 12345)
-print(cst1)
+# cst1 = Customer("Mc", "Lovin", "mclovin@gmail.com", 12345)
+# print(cst1.id)
