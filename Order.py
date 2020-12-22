@@ -18,3 +18,10 @@ class Order:
     @property
     def total_price(self):
         return sum([food.price for food in self.food])
+
+    @property
+    def foods_ordered(self):
+        return [food.food_name for food in self.food]
+
+    def order_info(self):
+        print("---Order---\nCustomer: {}\nFood:{}\nPrice: {}".format(self.cust.full_name, self.foods_ordered, self.total_price))

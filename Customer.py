@@ -7,7 +7,7 @@ class Customer(Person):
         super().__init__(first, last, email)
         self.credit_card = credit_card
 
-    def display_info(self):
+    def customer_info(self):
         print("Name: {}\nEmail: {}\nCard: {}".format(self.full_name, self.email, self.credit_card))
 
     def add_credit_card(self, credit_card):

@@ -9,6 +9,7 @@ McLovin Fastfood Chain App with Speech Recognition
 1. Create an object-oriented program design that receives an order in plain test. Implement with basic classes. (In Progress)
 2. Create a database and connect the system.
 3. Create a speech recognition for the orders. (Sounds familiar).
+	a. Idea: Use Speech-to-text and train a BERT model, just to spice things up.
 4. Adda a recommendation system to suggest what "you may also like" based on previous orders.
 
 ### System Functionality and Requirements:
